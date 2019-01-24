@@ -109,7 +109,6 @@ function(_find_verilator)
         logic_target_compile_options(verilated PRIVATE
             -Wno-attributes
             -Wno-cast-qual
-            -Wno-cast-equal
             -Wno-float-equal
             -Wno-suggest-override
             -Wno-conversion
