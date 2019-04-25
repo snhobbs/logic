@@ -300,7 +300,7 @@ function(add_hdl_verilator)
 
         if (CMAKE_CXX_COMPILER_ID MATCHES GNU OR
                 CMAKE_CXX_COMPILER_ID MATCHES Clang)
-            set(flags -std=c++11 -O2 -fdata-sections -ffunction-sections)
+            set(flags -std=c++14 -O2 -fdata-sections -ffunction-sections)
             list(APPEND compile_flags -CFLAGS '${flags}')
         endif()
 

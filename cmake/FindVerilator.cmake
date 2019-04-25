@@ -116,10 +116,12 @@ function(_find_verilator)
             -Wno-effc++
             -Wno-format
             -Wno-format-nonliteral
+            -Wno-format-security
             -Wno-missing-declarations
             -Wno-old-style-cast
             -Wno-shadow
             -Wno-sign-conversion
+            -Wno-sign-compare
             -Wno-strict-overflow
             -Wno-suggest-attribute=noreturn
             -Wno-suggest-final-methods
