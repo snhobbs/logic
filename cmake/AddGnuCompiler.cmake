@@ -24,9 +24,9 @@ function(logic_target_compile_options target)
     set(options "")
 
     if (CMAKE_SYSTEM_NAME MATCHES CYGWIN)
-        list(APPEND options -std=gnu++11)
+        list(APPEND options -std=gnu++14)
     else()
-        list(APPEND options -std=c++11)
+        list(APPEND options -std=c++14)
     endif()
 
     list(APPEND options -fPIC)
